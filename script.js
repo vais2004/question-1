@@ -16,8 +16,13 @@ function multiplyHandler(){
     output.innerText = Number(inputOne.value) * Number(inputTwo.value)
 }
 function divideHandler(){
-    
+    output.innerText = Number(inputOnej.value) / Number(inputTwo.value)
 }
+
+plusButton.addEventListener('click', plusHandler)
+minusButton.addEventListener('click', minusButton)
+multiplyButton.addEventListener('click', multiplyHandler)
+divideButton.addEventListener('click', divideHandler)
 
 
 
