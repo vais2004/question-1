@@ -23,12 +23,3 @@ plusButton.addEventListener('click', plusHandler)
 minusButton.addEventListener('click', minusHandler)
 multiplyButton.addEventListener('click', multiplyHandler)
 divideButton.addEventListener('click', divideHandler)
-
-
-
-
-
-
-
-
-
